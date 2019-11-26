@@ -59,6 +59,7 @@ SmartScreen events appear in the Microsoft-Windows-SmartScreen/Debug log in Even
 
 > [!NOTE]
 > For information on how to use the Event Viewer, see [Windows Event Viewer](https://docs.microsoft.com/host-integration-server/core/windows-event-viewer1).
+> Windows event logs for SmartScreen is disabled by default, users can use Event Viewer UI to enable the log or use the command line to enable it: wevtutil sl Microsoft-Windows-SmartScreen/Debug /e:true
 
 |EventID | Description |
 | :---:         |     :---:      |
